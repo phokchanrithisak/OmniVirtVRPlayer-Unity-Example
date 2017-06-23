@@ -97,7 +97,7 @@ Any change on the player could be detected by registering a callback function in
 ```csharp
 void Start () {
     VRPlayer vrPlayer = VRPlayer.Launch (24, true, Mode.Off);
-    // Register Callback
+    // Register a Callback
     vrPlayer.PlayerEnded += OnVRPlayerEnded;
 }
 
