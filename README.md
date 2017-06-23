@@ -4,8 +4,6 @@
 
 **OmniVirt** makes the leading player for 360° video experiences across mobile and desktop. Upload your 360° content to OmniVirt and serve it into your app with few easy steps.
 
-Visit [omnivirt.com](https://omnivirt.com/) to upload your VR content. Contact us for more info at [contact@omnivirt.com](mailto:contact@omnivirt.com).
-
 ## Usage
 
 **OmniVirt VR Player** for Unity provides you a really easy way to embed 360° content on your iOS and Android game with just few lines of code.
