@@ -42,7 +42,7 @@ And then, create a C# script and rename it to `VRPlayerControl`.
 
 ![DragDropScript](https://github.com/OmniVirt/OmniVirtVRPlayer-Unity-Example/raw/master/Screenshots/dragdropscript.jpg)
 
-Open `VRPlayerControl.cs` file and add the following line to the header area.
+Open `VRPlayerControl.cs` file and add the following line in the header area.
 
 ```csharp
 using OmniVirt;
