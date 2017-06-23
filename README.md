@@ -92,7 +92,7 @@ Once you set it up correctly, user will sometime see an ad among the player and 
 
 ### Player Callback
 
-Any change on the player could be detected by registering a callback function like this.
+Any change on the player could be detected by registering a callback function in the pattern like this.
 
 ```csharp
 void Start () {
