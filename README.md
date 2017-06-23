@@ -34,15 +34,15 @@ First, create an empty GameObject in the scene.
 
 ![GameObject](https://github.com/OmniVirt/OmniVirtVRPlayer-Unity-Example/raw/master/Screenshots/emptygameobject.jpg)
 
-And then, create a C# script and rename it to **VRPlayerControl**.
+And then, create a C# script and rename it to `VRPlayerControl`.
 
 ![VRPlayerController](https://github.com/OmniVirt/OmniVirtVRPlayer-Unity-Example/raw/master/Screenshots/newcsscript.jpg)
 
-Drag the script and drop it a created GameObject to assign it to the scene.
+**Drag** the script and **drop** it a created GameObject to assign it to the scene.
 
 ![DragDropScript](https://github.com/OmniVirt/OmniVirtVRPlayer-Unity-Example/raw/master/Screenshots/dragdropscript.jpg)
 
-Open **VRPlayerControl** file and add the following line to the header area.
+Open `VRPlayerControl` file and add the following line to the header area.
 
 ```csharp
 using OmniVirt;
