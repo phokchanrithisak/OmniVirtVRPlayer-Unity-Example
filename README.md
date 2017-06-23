@@ -109,7 +109,7 @@ void OnVRPlayerEnded(object player, System.EventArgs args) {
 
 These are the list of callback functions available.
 
-- `PlayerLoaded(object, PlayerLoadedEventArgs)` - Called when VR Player has been loaded successfully.
+- **`PlayerLoaded(object, PlayerLoadedEventArgs)`** - Called when VR Player has been loaded successfully.
 
 - `PlayerStarted(object, System.EventArgs)` - Called when VR Player has started playing.
 
