@@ -113,37 +113,69 @@ These are the list of callback functions available.
 
   Called when VR Player has been loaded successfully.
 
-- `PlayerStarted(object, System.EventArgs)` - Called when VR Player has started playing.
+- **`PlayerStarted(object, System.EventArgs)`**
 
-- `PlayerPaused(object, System.EventArgs)` - Called when VR Player has been paused.
+  Called when VR Player has started playing.
 
-- `PlayerEnded(object, System.EventArgs)` - Called when VR Player has finished playing.
+- **`PlayerPaused(object, System.EventArgs)`**
 
-- `PlayerSkipped(object, System.EventArgs)` - Called when video has been skipped for the next one.
+  Called when VR Player has been paused.
 
-- `PlayerDurationChanged(object, PlayerDurationChangedEventArgs)` - Called when video duration has been changed.
+- **`PlayerEnded(object, System.EventArgs)`**
 
-- `PlayerProgressChanged(object, PlayerProgressChangedEventArgs)` - Called when video progress has been changed.
+  Called when VR Player has finished playing.
 
-- `PlayerBufferChanged(object, PlayerBufferChangedEventArgs)` - Called when video has been buffered.
+- **`PlayerSkipped(object, System.EventArgs)`**
 
-- `PlayerSeekChanged(object, PlayerSeekChangedEventArgs)` - Called when video has been seeked.
+  Called when video has been skipped for the next one.
 
-- `PlayerCardboardChanged(object, PlayerCardboardChangedEventArgs)` - Called when Cardboard mode has been changed.
+- **`PlayerDurationChanged(object, PlayerDurationChangedEventArgs)`**
 
-- `PlayerVolumeChanged(object, PlayerAudioChangedEventArgs)` - Called when volume level has been changed.
+  Called when video duration has been changed.
 
-- `PlayerQualityChanged(object, PlayerQualityChangedEventArgs)` - Called when video quality has been changed.
+- **`PlayerProgressChanged(object, PlayerProgressChangedEventArgs)`**
 
-- `PlayerExpanded(object, System.EventArgs)` - Called when VR player has been expanded fullscreen.
+  Called when video progress has been changed.
 
-- `PlayerCollapsed(object, System.EventArgs)` - Called when VR player has been force destroyed.
+- **`PlayerBufferChanged(object, PlayerBufferChangedEventArgs)`**
 
-- `PlayerLatitudeChanged(object, PlayerLatitudeChangedEventArgs)` - Called when video angle in y-axis has been changed.
+  Called when video has been buffered.
 
-- `PlayerLongitudeChanged(object, PlayerLongitudeChangedEventArgs)` - Called when video angle in x-axis has been changed.
+- **`PlayerSeekChanged(object, PlayerSeekChangedEventArgs)`**
 
-- `PlayerSwitched(object, PlayerSwitchedEventArgs)` - Called when video scene has been switched.
+  Called when video has been seeked.
+
+- **`PlayerCardboardChanged(object, PlayerCardboardChangedEventArgs)`**
+
+  Called when Cardboard mode has been changed.
+
+- **`PlayerVolumeChanged(object, PlayerAudioChangedEventArgs)`**
+
+  Called when volume level has been changed.
+
+- **`PlayerQualityChanged(object, PlayerQualityChangedEventArgs)`**
+
+  Called when video quality has been changed.
+
+- **`PlayerExpanded(object, System.EventArgs)`**
+
+  Called when VR player has been expanded fullscreen.
+
+- **`PlayerCollapsed(object, System.EventArgs)`**
+
+  Called when VR player has been force destroyed.
+
+- **`PlayerLatitudeChanged(object, PlayerLatitudeChangedEventArgs)`**
+
+  Called when video angle in y-axis has been changed.
+
+- **`PlayerLongitudeChanged(object, PlayerLongitudeChangedEventArgs)`**
+
+  Called when video angle in x-axis has been changed.
+
+- **`PlayerSwitched(object, PlayerSwitchedEventArgs)`**
+
+  Called when video scene has been switched.
 
 # Questions?
 
