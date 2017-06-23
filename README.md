@@ -16,7 +16,7 @@
 
 Content is now ready. It is time to work on Unity editor.
 
-### Add the OmniVirt SDK to your app
+### Add the OmniVirt SDK to your project
 
 1) Download [OmniVirtSDK.unitypackage](https://github.com/OmniVirt/OmniVirtVRPlayer-Unity-Example/raw/master/OmniVirtSDK.unitypackage)
 
@@ -26,7 +26,7 @@ Content is now ready. It is time to work on Unity editor.
 
 Your project will now contain all necessary files to run OmniVirt VR Player.
 
-### Launch a VR Player
+### Prepare a script
 
 You can now let you VR content played in your game with just a single line of code !
 
@@ -41,6 +41,8 @@ And then, create a C# script and rename it to `VRPlayerControl`.
 **Drag** the script and **drop** it a created GameObject to assign it to the scene.
 
 ![DragDropScript](https://github.com/OmniVirt/OmniVirtVRPlayer-Unity-Example/raw/master/Screenshots/dragdropscript.jpg)
+
+### Launch a VR Player
 
 Open `VRPlayerControl.cs` file and add the following line in the header area.
 
