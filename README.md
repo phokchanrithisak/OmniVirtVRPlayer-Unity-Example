@@ -57,7 +57,7 @@ VRPlayer.Launch (CONTENT_ID,
                     );
 ```
 
-And replace `CONTENT_ID` with a Content ID got from step above, for example,
+And replace `CONTENT_ID` with a **Content ID** got from step above, for example,
 
 ```csharp
 public class VRPlayerControl : MonoBehaviour {
