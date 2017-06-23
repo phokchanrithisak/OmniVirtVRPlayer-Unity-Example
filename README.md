@@ -14,7 +14,7 @@
 2. **Upload** your VR / 360° photo or video on [OmniVirt](https://www.omnivirt.com/).
 3. Keep the **Content ID** assigned to your content for further use.
 
-Content is now ready. Now it is time to work on Unity editor.
+Content is now ready. It is time to work on Unity editor.
 
 ### Add the OmniVirt SDK to your app
 
