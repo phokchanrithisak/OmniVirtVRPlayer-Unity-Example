@@ -74,7 +74,7 @@ public class VRPlayerControl : MonoBehaviour {
 }
 ```
 
-And ... done ! That's all ! Build project and run to test the VR Player.
+And ... done ! It is this easy ! You can now build project and run to test the VR Player.
 
 ### Extra: Earn Money
 
