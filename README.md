@@ -26,6 +26,14 @@ Content is now ready. It is time to work on Unity editor.
 
 Your project will now contain all necessary files to run OmniVirt VR Player.
 
+## Switch Platform
+
+Currently OmniVirt VR Player for Unity is supported only on iOS and Android. So to make it works, you need to switch platform to either iOS or Android first. To do so, click at **File -> Build Settings**, choose your target platform (iOS or Android) and then click **Switch Platform**.
+
+![Switch Platform](https://github.com/OmniVirt/OmniVirtVRPlayer-Unity-Example/raw/master/Screenshots/switchplatform.jpg)
+
+Please note that if you do not switch the platform, your code will not be able to compile.
+
 ## Prepare a script
 
 You can now let you VR content played in your game with just a single line of code !
