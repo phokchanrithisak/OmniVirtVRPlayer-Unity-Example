@@ -24,6 +24,10 @@ Content is now ready. It is time to work on Unity editor.
 
 ![Import](https://github.com/OmniVirt/OmniVirtVRPlayer-Unity-Example/raw/master/Screenshots/importpackage.jpg)
 
+3) In Project pane, browse to **Assets -> Plugins** and choose **VRKit**. In Inspector pane, make sure that **Editor**, **iOS** and **Android** are all checked.
+
+![VRKitPlatforms](https://github.com/OmniVirt/OmniVirtVRPlayer-Unity-Example/raw/master/Screenshots/vrkitplatforms.jpg)
+
 Your project will now contain all necessary files to run OmniVirt VR Player.
 
 ## Switch Platform
