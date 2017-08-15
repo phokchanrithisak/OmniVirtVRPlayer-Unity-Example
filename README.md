@@ -123,39 +123,6 @@ vrPlayer.LoadAndPlay (CONTENT_ID,
 
 Once you set it up correctly, user will sometime see an ad among the player and that will turn into your revenue !
 
-## Player Callback
-
-Any change on the player could be detected by registering a callback function in the pattern like this.
-
-```csharp
-void Start () {
-    ...
-    
-    // Register a Callback
-    vrPlayer.OnVideoEnd += OnVRPlayerEnded;
-}
-
-// Video Playing Completion Event
-void OnVRPlayerEnded() {
-
-}
-```
-
-These are the list of callback functions available.
-
-- **`OnVideoReady()`**
-
-  Called when video is ready to play.
-
-- **`OnVideoEnd()`**
-
-  Called when VR Player has finished playing.
-
-- **`OnUnloaded()`**
-
-  Called when VR Player has been destroyed.
-
-
 # Questions?
 
 Please feel free to email us at [contact@omnivirt.com](mailto:contact@omnivirt.com) !
