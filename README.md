@@ -22,11 +22,7 @@ Content is now ready. It is time to work on Unity editor.
 
 2) Import it to your Unity project via **Assets -> Import Package -> Custom Package** menu.
 
-![Import](https://github.com/OmniVirt/OmniVirtVRPlayer-Unity-Example/raw/master/Screenshots/importpackage.jpg)
-
-3) In Project pane, browse to **Assets -> Plugins** and choose **VRKit**. In Inspector pane, make sure that **Editor**, **iOS** and **Android** are all checked.
-
-![VRKitPlatforms](https://github.com/OmniVirt/OmniVirtVRPlayer-Unity-Example/raw/master/Screenshots/vrkitplatforms.jpg)
+![Import](https://github.com/OmniVirt/OmniVirtVRPlayer-Unity-Example/raw/master/Screenshots/importpackage.jpg?v=2)
 
 Your project will now contain all necessary files to run OmniVirt VR Player.
 
@@ -48,7 +44,7 @@ First, create an empty GameObject in the scene.
 
 And then, create a C# script and rename it to `VRPlayerControl`.
 
-![VRPlayerController](https://github.com/OmniVirt/OmniVirtVRPlayer-Unity-Example/raw/master/Screenshots/newcsscript.jpg)
+![VRPlayerController](https://github.com/OmniVirt/OmniVirtVRPlayer-Unity-Example/raw/master/Screenshots/newcsscript.jpg?v=2)
 
 **Drag** the script and **drop** it a created GameObject to assign it to the scene.
 
