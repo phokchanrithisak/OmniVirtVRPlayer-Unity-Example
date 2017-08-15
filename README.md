@@ -22,7 +22,7 @@ Content is now ready. It is time to work on Unity editor.
 
 2) Import it to your Unity project via **Assets -> Import Package -> Custom Package** menu.
 
-![Import](https://github.com/OmniVirt/OmniVirtVRPlayer-Unity-Example/raw/master/Screenshots/importpackage2.jpg)
+![Import](https://github.com/OmniVirt/OmniVirtVRPlayer-Unity-Example/raw/master/Screenshots/importpackage3.jpg)
 
 Your project will now contain all necessary files to run OmniVirt VR Player.
 
@@ -71,40 +71,41 @@ Replace `CONTENT_ID` with a **Content ID** got from step above to let it play th
 ```csharp
 public class VRPlayerControl : MonoBehaviour {
 
-	VRPlayer vrPlayer;
+    VRPlayer vrPlayer;
 
-	// Use this for initialization
-	void Start () {
-		// Create VR Player instance
-		vrPlayer = new VRPlayer ();
+    // Use this for initialization
+    void Start () {
+        // Create VR Player instance
+        vrPlayer = new VRPlayer ();
 
-		// Register Callback for Video Playing Completion Event
-		vrPlayer.OnVideoEnd += OnVRPlayerEnded;
-		vrPlayer.OnUnloaded += OnVRPlayerUnloaded;
+        // Register Callback for Video Playing Completion Event
+        vrPlayer.OnVideoEnd += OnVRPlayerEnded;
+        vrPlayer.OnUnloaded += OnVRPlayerUnloaded;
 
-		// Play
-		vrPlayer.LoadAndPlay (24, true);
-	}
+        // Play
+        vrPlayer.LoadAndPlay (24, true);
+    }
 	
-	// Update is called once per frame
-	void Update () {
+    // Update is called once per frame
+    void Update () {
 		
-	}
+    }
 
-	/*************************
-	 * Callback for VR Player
-	 *************************/
+    /*************************
+    * Callback for VR Player
+    *************************/
 
-	// Video Playing Completion Event
-	void OnVRPlayerEnded() {
-		if (vrPlayer != null)
-			vrPlayer.Unload ();
-	}
+    // Video Playing Completion Event
+    void OnVRPlayerEnded() {
+        // Automatically close the player after played
+        if (vrPlayer != null)
+            vrPlayer.Unload ();
+    }
 
-	// VR Player Unloaded Event
-	void OnVRPlayerUnloaded() {
-		vrPlayer = null;		
-	}
+    // VR Player Unloaded Event
+    void OnVRPlayerUnloaded() {
+        vrPlayer = null;		
+    }
 }
 ```
 
@@ -121,7 +122,7 @@ vrPlayer.LoadAndPlay (CONTENT_ID,
                       );
 ```
 
-Once you set it up correctly, user will sometime see an ad among the player and that will turn into your revenue !
+Once you set it up correctly, user will sometime see an preroll-ad before the content is played and that will turn into your revenue !
 
 ## Player Callback
 
@@ -158,4 +159,4 @@ These are the list of callback functions available.
 
 # Questions?
 
-Please feel free to email us at [contact@omnivirt.com](mailto:contact@omnivirt.com) !
+Please feel free to email us at [vrplayer@omnivirt.com](mailto:vrplayer@omnivirt.com) !
