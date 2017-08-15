@@ -71,40 +71,41 @@ Replace `CONTENT_ID` with a **Content ID** got from step above to let it play th
 ```csharp
 public class VRPlayerControl : MonoBehaviour {
 
-	VRPlayer vrPlayer;
+    VRPlayer vrPlayer;
 
-	// Use this for initialization
-	void Start () {
-		// Create VR Player instance
-		vrPlayer = new VRPlayer ();
+    // Use this for initialization
+    void Start () {
+        // Create VR Player instance
+        vrPlayer = new VRPlayer ();
 
-		// Register Callback for Video Playing Completion Event
-		vrPlayer.OnVideoEnd += OnVRPlayerEnded;
-		vrPlayer.OnUnloaded += OnVRPlayerUnloaded;
+        // Register Callback for Video Playing Completion Event
+        vrPlayer.OnVideoEnd += OnVRPlayerEnded;
+        vrPlayer.OnUnloaded += OnVRPlayerUnloaded;
 
-		// Play
-		vrPlayer.LoadAndPlay (24, true);
-	}
+        // Play
+        vrPlayer.LoadAndPlay (24, true);
+    }
 	
-	// Update is called once per frame
-	void Update () {
+    // Update is called once per frame
+    void Update () {
 		
-	}
+    }
 
-	/*************************
-	 * Callback for VR Player
-	 *************************/
+    /*************************
+    * Callback for VR Player
+    *************************/
 
-	// Video Playing Completion Event
-	void OnVRPlayerEnded() {
-		if (vrPlayer != null)
-			vrPlayer.Unload ();
-	}
+    // Video Playing Completion Event
+    void OnVRPlayerEnded() {
+        // Automatically close the player after played
+        if (vrPlayer != null)
+            vrPlayer.Unload ();
+    }
 
-	// VR Player Unloaded Event
-	void OnVRPlayerUnloaded() {
-		vrPlayer = null;		
-	}
+    // VR Player Unloaded Event
+    void OnVRPlayerUnloaded() {
+        vrPlayer = null;		
+    }
 }
 ```
 
