@@ -122,7 +122,7 @@ vrPlayer.LoadAndPlay (CONTENT_ID,
                       );
 ```
 
-Once you set it up correctly, user will sometime see an ad among the player and that will turn into your revenue !
+Once you set it up correctly, user will sometime see an preroll-ad before the content is played and that will turn into your revenue !
 
 ## Player Callback
 
