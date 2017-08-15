@@ -1,4 +1,4 @@
-# OmniVirt VR Player: 360° Video Player for Unity (iOS & Android)
+# OmniVirt VR Player: 360° Video Player for Unity (iOS, Android, Cardboard, Gear VR, Daydream)
 
 ![Screenshot](https://github.com/OmniVirt/OmniVirtVRPlayer-Unity-Example/raw/master/Screenshots/screenshot3.jpg)
 
@@ -10,8 +10,8 @@
 
 ## Get Started
 
-1. **Sign up** for an account at [OmniVirt](https://www.omnivirt.com)
-2. **Upload** your VR / 360° photo or video on [OmniVirt](https://www.omnivirt.com/).
+1. **Sign up** for an account at [OmniVirt](https://www.omnivirt.com/vr-player/)
+2. **Upload** your VR / 360° photo or video on [OmniVirt](https://www.omnivirt.com/vr-player/).
 3. Keep the **Content ID** assigned to your content for further use.
 
 Content is now ready. It is time to work on Unity editor.
@@ -61,7 +61,7 @@ using OmniVirt;
 The following code snippet is used to launch a VR Player.
 
 ```csharp
-vrPlayer.LoadAndPlay (CONTENT_ID,
+vrPlayer.LoadAndPlay (CONTENT_ID,    // Replace your Content ID here
                       true           // Cardboard Enabled; false for non-VR mode
                       );
 ```
@@ -83,7 +83,7 @@ public class VRPlayerControl : MonoBehaviour {
         vrPlayer.OnUnloaded += OnVRPlayerUnloaded;
 
         // Play
-        vrPlayer.LoadAndPlay (24, true);
+        vrPlayer.LoadAndPlay (24, true);  // Use your Content ID here
     }
 	
     // Update is called once per frame
@@ -116,8 +116,8 @@ And ... done ! It is this easy ! You can now build project and run to test the V
 Would like to earn money from your 360° content? You can create an **Ad Space** on [OmniVirt](www.omnivirt.com) and pass the **Ad Space ID** acquired to the command like shown below to enable ad on the player.
 
 ```csharp
-vrPlayer.LoadAndPlay (CONTENT_ID,
-                      AD_SPACE_ID,   // AD Space ID
+vrPlayer.LoadAndPlay (CONTENT_ID,    // Your Content ID
+                      AD_SPACE_ID,   // Your Ad Space ID
                       true           // Cardboard Enabled; false for non-VR mode
                       );
 ```
