@@ -22,7 +22,7 @@ Content is now ready. It is time to work on Unity editor.
 
 2) Import it to your Unity project via **Assets -> Import Package -> Custom Package** menu.
 
-![Import](https://github.com/OmniVirt/OmniVirtVRPlayer-Unity-Example/raw/master/Screenshots/importpackage2.jpg)
+![Import](https://github.com/OmniVirt/OmniVirtVRPlayer-Unity-Example/raw/master/Screenshots/importpackage3.jpg)
 
 Your project will now contain all necessary files to run OmniVirt VR Player.
 
