@@ -159,4 +159,4 @@ These are the list of callback functions available.
 
 # Questions?
 
-Please feel free to email us at [contact@omnivirt.com](mailto:contact@omnivirt.com) !
+Please feel free to email us at [vrplayer@omnivirt.com](mailto:vrplayer@omnivirt.com) !
