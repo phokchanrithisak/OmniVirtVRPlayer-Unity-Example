@@ -62,11 +62,11 @@ The following code snippet is used to launch a VR Player.
 
 ```csharp
 vrPlayer.LoadAndPlay (CONTENT_ID,
-                      true           // Cardboard Enabled
+                      true           // Cardboard Enabled; false for non-VR mode
                       );
 ```
 
-And replace `CONTENT_ID` with a **Content ID** got from step above, for example,
+Replace `CONTENT_ID` with a **Content ID** got from step above to let it play the specific content you need, for example,
 
 ```csharp
 public class VRPlayerControl : MonoBehaviour {
@@ -83,7 +83,7 @@ public class VRPlayerControl : MonoBehaviour {
 		vrPlayer.OnUnloaded += OnVRPlayerUnloaded;
 
 		// Play
-		vrPlayer.LoadAndPlay (CONTENT_ID, false);
+		vrPlayer.LoadAndPlay (24, true);
 	}
 	
 	// Update is called once per frame
@@ -117,7 +117,7 @@ Would like to earn money from your 360° content? You can create an **Ad Space**
 ```csharp
 vrPlayer.LoadAndPlay (CONTENT_ID,
                       AD_SPACE_ID,   // AD Space ID
-                      true           // Cardboard Enabled
+                      true           // Cardboard Enabled; false for non-VR mode
                       );
 ```
 
