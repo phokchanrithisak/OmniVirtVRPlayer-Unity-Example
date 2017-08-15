@@ -157,6 +157,13 @@ These are the list of callback functions available.
   Called when VR Player has been destroyed.
 
 
+## iOS Build
+
+Bitcode is not supported on OmniVirt SDK yet. Please turn the Bitcode off by set `Build Settings -> Bitcode` to **off** for your deployment target.
+
+![Import](https://github.com/OmniVirt/OmniVirtVRPlayer-Unity-Example/raw/master/Screenshots/bitcode.jpg)
+
+
 # Questions?
 
 Please feel free to email us at [vrplayer@omnivirt.com](mailto:vrplayer@omnivirt.com) !
