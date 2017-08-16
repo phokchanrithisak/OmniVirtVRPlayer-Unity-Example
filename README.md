@@ -4,6 +4,8 @@
 
 **OmniVirt** makes the leading player for 360° video experiences across mobile and desktop. Upload your 360° content to OmniVirt and serve it into your app with few easy steps.
 
+OmniVirt VR Player could be used on **Unity 5.3 or newer**.
+
 # Usage
 
 **OmniVirt VR Player** for Unity provides you a really easy way to embed 360° content on your iOS and Android game with just few lines of code.
