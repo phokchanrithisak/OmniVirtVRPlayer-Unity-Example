@@ -14,6 +14,8 @@ public class VRPlayerController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		Debug.Log ("OmniVirt SDK Version v" + OmniVirt.SDK.SDK_VERSION);
+
 		// Bind PlayButton's Click Event with OnPlayButtonClicked
 		PlayButton.onClick.AddListener (OnPlayButtonClicked);
 	}
