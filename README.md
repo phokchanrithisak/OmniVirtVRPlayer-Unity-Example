@@ -171,7 +171,7 @@ Since Day Dream game controller support is required on Day Dream compatible appl
 
 3) Add `OmniVirtGameController` script to **`GvrControllerMain`** game object. (It is important to add script to the correct one otherwise it would not work).
 
-![Add Component](https://github.com/OmniVirt/OmniVirtVRPlayer-Unity-Example/raw/master/Screenshots/daydream_addcomponent.png)
+![Add Component](https://github.com/OmniVirt/OmniVirtVRPlayer-Unity-Example/raw/master/Screenshots/daydream_addcomponent2.png)
 
 That's all. Day Dream controller will now magically work with our VR Player in Day Dream mode !
 
